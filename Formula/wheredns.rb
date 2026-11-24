@@ -1,24 +1,24 @@
 class Wheredns < Formula
   desc "DNS, email, web and network diagnostics from the terminal"
   homepage "https://github.com/Shroomate/wheredns-cli"
-  version "0.2.0"
+  version "0.3.0"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/Shroomate/wheredns-cli/releases/download/v0.2.0/wheredns-v0.2.0-aarch64-apple-darwin.tar.gz"
-      sha256 "3806a9e11fd79c02e9f037f6e90ed9fc66b08f24ef6912aa0024d6477c1fc9fb"
+      url "https://github.com/Shroomate/wheredns-cli/releases/download/v0.3.0/wheredns-v0.3.0-aarch64-apple-darwin.tar.gz"
+      sha256 "3a158b6dbe54d2db1e2cd104a575959b7c772e52f7640a9fbd1d98de90e2e100"
     end
     on_intel do
-      url "https://github.com/Shroomate/wheredns-cli/releases/download/v0.2.0/wheredns-v0.2.0-x86_64-apple-darwin.tar.gz"
-      sha256 "ecbd8771dfe899e460e9ad7a2eaedff2059a092d8b91eba42e2905b094047a0c"
+      url "https://github.com/Shroomate/wheredns-cli/releases/download/v0.3.0/wheredns-v0.3.0-x86_64-apple-darwin.tar.gz"
+      sha256 "d8662b8d819bbdd6aa32a385e768a85b9ae9ad90384efee2427a25ced459de1f"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/Shroomate/wheredns-cli/releases/download/v0.2.0/wheredns-v0.2.0-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "05bc6acc3b71d7bd5a565e5cdc11f5897a9fa6b5a3f2cec4d8e64f83d467eded"
+      url "https://github.com/Shroomate/wheredns-cli/releases/download/v0.3.0/wheredns-v0.3.0-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "5d9ed9eb25bb57aa979470bd2620fc90e36bd51e9a69bafaa2c2ed370941a9c9"
     end
   end
 
